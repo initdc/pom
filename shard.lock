@@ -1,0 +1,6 @@
+version: 2.0
+shards:
+  progress:
+    git: https://github.com/lucasintel/progress.cr.git
+    version: 0.1.2
+

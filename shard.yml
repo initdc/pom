@@ -1,0 +1,24 @@
+name: pom
+version: 0.1.0
+description: |
+  General purpose package version manager
+
+authors:
+  - initdc <initd@outlook.com>
+
+documentation: https://github.com/initdc/pom
+repository: https://github.com/initdc/pom
+
+targets:
+  pom:
+    main: src/pom.cr
+  downloader:
+    main: src/pom/downloader.cr
+
+dependencies:
+  progress: 
+    github: lucasintel/progress.cr
+
+crystal: '>= 1.0.0, < 2.0.0'
+
+license: MPL-2.0
